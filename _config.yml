@@ -1,0 +1,22 @@
+# Site identity
+title: "A Multivocal Review of MLOps Practices, Challenges and Open Issues"
+description: "MLR of 150 peer-reviewed and 48 grey-literature works on MLOps — definitions, activities, roles, practices, challenges and future directions."
+author: "Beyza Eken, Samodha Pallewatta, Nguyen Khoi Tran, Ayse Tosun, Muhammad Ali Babar"
+
+# Deployment
+baseurl: "/webpage-csur-multivocal-literature-review-mlops"
+url: "https://nguyentran0212.github.io"
+
+# Markdown engine
+markdown: kramdown
+highlighter: rouge
+
+# Plugins (none for now — keep it simple)
+plugins: []
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
