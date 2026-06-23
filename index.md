@@ -59,7 +59,7 @@ description: "MLR of 150 academic and 48 grey-literature works on MLOps — synt
       and <strong>48 grey-literature works</strong> to build a unified, evidence-based conceptualisation of MLOps. We
       identified <strong>eight definitions</strong> of MLOps in the literature, organised the primary activities across
       the ML lifecycle, mapped <strong>20 practitioner roles</strong>, and catalogued seven categories of state-of-the-art
-      practices and techniques — together with the socio-technical, pipeline, and platform challenges that practitioners
+      practices and techniques, along with the socio-technical, pipeline, and platform challenges that practitioners
       face when adopting MLOps. The review closes with an agenda for future research on domain-specific architectures,
       responsible-AI tooling, and secure pipelines.
     </p>
@@ -94,7 +94,7 @@ description: "MLR of 150 academic and 48 grey-literature works on MLOps — synt
   <div class="container">
     <h2>Research method</h2>
     <p>
-      Following Garousi et al.'s MLR guidelines, the review ran in three stages — <em>planning</em>,
+      Following Garousi et al.'s MLR guidelines, the review ran in three stages: <em>planning</em>,
       <em>conducting</em>, and <em>reporting</em>. Academic literature was harvested from IEEE Xplore, ACM Digital Library,
       Web of Science, and Scopus with complex Boolean queries; grey literature was collected via Google Search and arXiv
       with flexible strings, until theoretical saturation. Selection used pilot-calibrated inclusion / exclusion and
@@ -116,8 +116,8 @@ description: "MLR of 150 academic and 48 grey-literature works on MLOps — synt
   <div class="container">
     <h2>Eight conceptualisations of MLOps</h2>
     <p>
-      Rather than a single definition, the literature converges on <strong>eight conceptualisations</strong> of MLOps —
-      each foregrounding a different facet of operationalising ML. They are not mutually exclusive; real-world adoptions
+      Rather than a single definition, the literature converges on <strong>eight conceptualisations</strong> of MLOps.
+      Each one foregrounds a different facet of operationalising ML. They are not mutually exclusive; real-world adoptions
       typically blend several of them.
     </p>
 
@@ -145,10 +145,10 @@ description: "MLR of 150 academic and 48 grey-literature works on MLOps — synt
   <div class="container">
     <h2>The MLOps pipeline and 20 practitioner roles</h2>
     <p>
-      The review synthesises a comprehensive MLOps pipeline spanning <em>project initiation</em>,
-      <em>ML lifecycle activities</em> (data collection, preparation, analysis, model development), <em>application
+      The review synthesises an MLOps pipeline that spans <em>project initiation</em>,
+      the <em>ML lifecycle activities</em> (data collection, preparation, analysis, model development), <em>application
       development</em>, <em>deployment</em>, <em>monitoring</em>, <em>pipeline management</em>, <em>artifact
-      management</em>, <em>quality assurance</em>, and <em>team management</em> — with twenty distinct practitioner
+      management</em>, <em>quality assurance</em>, and <em>team management</em>, with twenty distinct practitioner
       roles collaborating across them.
     </p>
     <figure class="figure">
@@ -164,9 +164,9 @@ description: "MLR of 150 academic and 48 grey-literature works on MLOps — synt
   <div class="container">
     <h2>Practices, techniques, and the challenges they target</h2>
     <p>
-      The review catalogues seven categories of state-of-the-art MLOps practices — from team-structure adaptations and
-      version-control discipline to continuous monitoring, infrastructure-as-code, containerised deployment, automated
-      pipelines, and integrated platforms — and maps them to the specific <em>productionalisation challenges</em>
+      The review catalogues seven categories of state-of-the-art MLOps practices, from team-structure adaptations and
+      version-control discipline through continuous monitoring, infrastructure-as-code, containerised deployment, automated
+      pipelines, and integrated platforms, and maps them to the specific <em>productionalisation challenges</em>
       they address.
     </p>
 
@@ -217,7 +217,7 @@ description: "MLR of 150 academic and 48 grey-literature works on MLOps — synt
       <li><strong>Platform-related challenges</strong> — customisation vs. managed platforms, scalability, artifact management, distributed computing environments (TinyML, Federated Learning), and migration from existing DevOps toolchains.</li>
     </ul>
     <p>
-      Solutions increasingly emphasise human-centric, transparent communication strategies; domain-specific reference
+      Solutions we see emerging emphasise human-centric, transparent communication strategies; domain-specific reference
       architectures; systematic artifact management with governance; and structured human-in-the-loop interventions.
       Future work called out in the paper includes evaluation frameworks for MLOps platforms, automation-impact
       analysis frameworks, conjugated artifact management, and tools for responsible AI.
@@ -247,24 +247,23 @@ description: "MLR of 150 academic and 48 grey-literature works on MLOps — synt
       MLOps.
     </p>
     <p>
-      MLOps has emerged as a key solution to address many socio-technical challenges of bringing ML models to
-      production, such as integrating ML models with non-ML software, continuous monitoring, maintenance, and retraining
-      of deployed models. Despite the utility of MLOps, an integrated body of knowledge regarding MLOps remains
-      elusive because of its extensive scope due to the diversity of ML productionalization challenges it addresses.
-      Whilst the existing literature reviews provide valuable snapshots of specific practices, tools, and research
-      prototypes related to MLOps at various times, they focus on particular facets of MLOps, thus fail to offer a
-      comprehensive and invariant framework that can weave these perspectives into a unified understanding of MLOps.
-      This paper presents a Multivocal Literature Review that systematically analyzes a corpus of 150 peer-reviewed
-      and 48 grey literature to synthesize a unified conceptualization of MLOps and develop a snapshot of its best
-      practices, adoption challenges, and solutions.
+      We see MLOps as a key solution to the many socio-technical challenges of bringing ML models into
+      production: integrating ML models with non-ML software, monitoring them continuously, maintaining them, and
+      retraining them in the field. MLOps is useful, but an integrated body of knowledge about it has remained
+      elusive because the scope is so wide. The diversity of ML productionalization challenges it has to address
+      is part of the reason. Existing literature reviews offer useful snapshots of specific practices, tools, and
+      prototypes at particular points in time, but they each focus on one facet of MLOps and so do not give a
+      comprehensive, stable framework that can weave these perspectives into a unified understanding. In this
+      paper we present a Multivocal Literature Review of 150 peer-reviewed and 48 grey-literature works, with the
+      goal of synthesising a unified conceptualisation of MLOps and a snapshot of its current best practices,
+      adoption challenges, and solutions.
     </p>
   </div>
 </section>
 
 <section class="section section--alt">
   <div class="container">
-    <h2>Cite this paper</h2>
-    <p>BibTeX entry (verbatim from the manuscript's <code>BIBTEX</code> file):</p>
+    <h2>BibTeX</h2>
     <pre class="bibtex"><code>@article{eken2025multivocal,
   title={A multivocal review of MLOps practices, challenges and open issues},
   author={Eken, Beyza and Pallewatta, Samodha and Tran, Nguyen and Tosun, Ayse and Babar, Muhammad Ali},
